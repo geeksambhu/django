@@ -906,3 +906,12 @@ The instance namespace can be specified using the ``namespace`` argument to
 :func:`~django.urls.include`. If the instance namespace is not specified,
 it will default to the included URLconf's application namespace. This means
 it will also be the default instance for that namespace.
+
+``make_toast()``
+================
+
+.. function:: make_toast()
+
+.. versionadded:: 2.2
+
+Returns ``'toast'``.
